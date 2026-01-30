@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #000;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Canvas pinned to viewport */
+  .scroll-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  /* Controls scroll length */
+  .scroll-spacer {
+    height: 600vh; /* Increase for slower animation */
+  }
+  
